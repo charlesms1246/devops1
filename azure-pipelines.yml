@@ -6,9 +6,7 @@
 trigger:
 - main
 
-pool: testing_agent1
-  vmImage: ubuntu-latest
-
+pool: test_agent
 steps:
 - task: Maven@3
   inputs:
